@@ -1,6 +1,4 @@
 import os
 
 token = os.environ['TELEGRAM_TOKEN']
-username = os.environ['username']
-ratid = os.environ['ratid']
-admins = list(os.environ['admins'])
+ratid = 'AgADAgADhKgxG3FBOUhDPVtu5UzB6tSBtw0ABGSIMIw_REmSqeICAAEC'
