@@ -304,7 +304,7 @@ def add_player(message):
             elif game.gamestate != game.gamestates[0]:
                 bot.send_message(message.chat.id, 'Нет запущенной игры или игра уже началась.')
         except:
-            bot.send_message(message.chat.id, 'Что-то пошло не так. Возможно, стоит начать разговор с ботом @' + config.username)
+            bot.send_message(message.chat.id, 'Что-то пошло не так. Возможно, стоит начать разговор с ботом @shamshodjonbot' + config.username)
 
     time.sleep(3)
 
